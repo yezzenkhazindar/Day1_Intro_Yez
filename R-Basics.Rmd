@@ -1,0 +1,15 @@
+---
+title: "GitHub R Intro Yez"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r}
+source("Setup.R")
+```
+
+```{r}
+data("penguins")
+
+penguins
+```
